@@ -22,6 +22,6 @@ function deepestChild() {
   for(let i=0;i<lis.length;i++) {
     a=document.querySelector('div');
   }
-  return a.innerHTML;
+  return a;
 
 }
