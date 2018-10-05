@@ -20,7 +20,7 @@ function deepestChild() {
   const lis=document.querySelector('div#grand-node')
 
   while(lis) {
-    
+
   }
 
 }
