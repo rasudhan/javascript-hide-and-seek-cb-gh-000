@@ -17,11 +17,11 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  const lis=document.querySelectorAll('div #grand-node')
-  var a;
-  for(let i=0;i<lis.length;i++) {
-    a=document.querySelector('div');
+  const nodes=document.querySelectorAll('div #grand-node')
+  if(!nodes.length) { 
+    return false;
   }
-  return a;
+  
+  return nodes[nodes.length-1];
 
 }
